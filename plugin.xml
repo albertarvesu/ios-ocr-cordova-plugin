@@ -21,10 +21,10 @@
             </feature>
         </config-file>
         
-        <header-file src="src/claseAuxiliar.h" target-dir="Plugins" />
-        <source-file src="src/claseAuxiliar.mm" target-dir="Plugins" />
-        <header-file src="src/OCRPlugin.h" target-dir="Plugins" />
-        <source-file src="src/OCRPlugin.m" target-dir="Plugins" />
+        <header-file src="src/claseAuxiliar.h" target-dir="." />
+        <source-file src="src/claseAuxiliar.mm" target-dir="." />
+        <header-file src="src/OCRPlugin.h" target-dir="." />
+        <source-file src="src/OCRPlugin.m" target-dir="." />
 <!--
         <source-file src="dependencies/include/leptonica/allheaders.h" target-dir="dependencies/include/leptonica" />
         <source-file src="dependencies/include/leptonica/alltypes.h" target-dir="dependencies/include/leptonica" />
