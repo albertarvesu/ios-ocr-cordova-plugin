@@ -68,8 +68,8 @@
 		<source-file src="dependencies/include/tesseract/thresholder.h" target-dir="dependencies/include/tesseract" />
 		<source-file src="dependencies/include/tesseract/unichar.h" target-dir="dependencies/include/tesseract" />
 
-		<source-file src="dependencies/include/lib/liblept.a" target-dir="dependencies/include/lib" />
-		<source-file src="dependencies/include/lib/libtesseract_all.a" target-dir="dependencies/include/lib" />
+		<source-file src="dependencies/lib/liblept.a" target-dir="dependencies/lib" />
+		<source-file src="dependencies/lib/libtesseract_all.a" target-dir="dependencies/lib" />
 
         <source-file src="tessdata/eng.traineddata" target-dir="tessdata" />
 
