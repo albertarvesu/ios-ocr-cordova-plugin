@@ -25,8 +25,54 @@
         <source-file src="src/claseAuxiliar.mm" target-dir="Plugins" />
         <header-file src="src/OCRPlugin.h" target-dir="Plugins" />
         <source-file src="src/OCRPlugin.m" target-dir="Plugins" />
-        <source-file src="dependencies" target-dir="dependencies" />
-        <source-file src="tessdata" target-dir="tessdata" />
+
+        <source-file src="dependencies/include/leptonica/allheaders.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/alltypes.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/array.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/arrayaccess.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/bbuffer.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/bmf.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/bmp.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/ccbord.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/dewarp.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/endianness.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/environ.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/freetype.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/gplot.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/heap.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/imageio.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/jbclass.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/leptwin.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/list.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/morph.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/pix.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/ptra.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/queue.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/readbarcode.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/regutils.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/stack.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/sudoku.h" target-dir="dependencies/include/leptonica" />
+        <source-file src="dependencies/include/leptonica/watershed.h" target-dir="dependencies/include/leptonica" />
+
+		<source-file src="dependencies/include/tesseract/apitypes.h" target-dir="dependencies/include/tesseract" />
+		<source-file src="dependencies/include/tesseract/baseapi.h" target-dir="dependencies/include/tesseract" />
+		<source-file src="dependencies/include/tesseract/errcode.h" target-dir="dependencies/include/tesseract" />
+		<source-file src="dependencies/include/tesseract/genericvector.h" target-dir="dependencies/include/tesseract" />
+		<source-file src="dependencies/include/tesseract/helpers.h" target-dir="dependencies/include/tesseract" />
+		<source-file src="dependencies/include/tesseract/host.h" target-dir="dependencies/include/tesseract" />
+		<source-file src="dependencies/include/tesseract/ndminx.h" target-dir="dependencies/include/tesseract" />
+		<source-file src="dependencies/include/tesseract/ocrclass.h" target-dir="dependencies/include/tesseract" />
+		<source-file src="dependencies/include/tesseract/platform.h" target-dir="dependencies/include/tesseract" />
+		<source-file src="dependencies/include/tesseract/publictypes.h" target-dir="dependencies/include/tesseract" />
+		<source-file src="dependencies/include/tesseract/tesscallback.h" target-dir="dependencies/include/tesseract" />
+		<source-file src="dependencies/include/tesseract/thresholder.h" target-dir="dependencies/include/tesseract" />
+		<source-file src="dependencies/include/tesseract/unichar.h" target-dir="dependencies/include/tesseract" />
+
+		<source-file src="dependencies/include/lib/liblept.a" target-dir="dependencies/include/lib" />
+		<source-file src="dependencies/include/lib/libtesseract_all.a" target-dir="dependencies/include/lib" />
+
+        <source-file src="tessdata/eng.traineddata" target-dir="tessdata" />
+
     </platform>
     
 </plugin>
