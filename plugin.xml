@@ -25,7 +25,7 @@
         <source-file src="src/claseAuxiliar.mm" target-dir="Plugins" />
         <header-file src="src/OCRPlugin.h" target-dir="Plugins" />
         <source-file src="src/OCRPlugin.m" target-dir="Plugins" />
-
+<!--
         <source-file src="dependencies/include/leptonica/allheaders.h" target-dir="dependencies/include/leptonica" />
         <source-file src="dependencies/include/leptonica/alltypes.h" target-dir="dependencies/include/leptonica" />
         <source-file src="dependencies/include/leptonica/array.h" target-dir="dependencies/include/leptonica" />
@@ -72,7 +72,7 @@
 		<source-file src="dependencies/lib/libtesseract_all.a" target-dir="dependencies/lib" />
 
         <source-file src="tessdata/eng.traineddata" target-dir="tessdata" />
-
+-->
     </platform>
     
 </plugin>
