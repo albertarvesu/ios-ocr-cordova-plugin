@@ -9,7 +9,6 @@
 #import "OCRPlugin.h"
 #import "claseAuxiliar.h"
 #import <Cordova/CDVPluginResult.h>
-#import "UIImage-Extensions.h"
 
 @implementation OCRPlugin
 @synthesize callbackID;
